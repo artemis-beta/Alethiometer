@@ -6,5 +6,6 @@
         <file>images/arm3.svg</file>
         <file>images/needle.svg</file>
         <file>alethiometer.png</file>
+        <file>images/alethiometer.icns</file>
     </qresource>
 </RCC>
