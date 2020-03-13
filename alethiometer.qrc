@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/media">
+        <file>images/alethiometer.svg</file>
+        <file>images/arm1.svg</file>
+        <file>images/arm2.svg</file>
+        <file>images/arm3.svg</file>
+        <file>images/needle.svg</file>
+    </qresource>
+</RCC>
