@@ -18,14 +18,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     arm.cxx \
     main.cpp \
-    mainwindow.cxx
+    mainwindow.cxx \
+    welcomedialog.cxx
 
 HEADERS += \
     arm.hxx \
-    mainwindow.hxx
+    mainwindow.hxx \
+    welcomedialog.hxx
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    welcomedialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

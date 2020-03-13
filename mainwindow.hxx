@@ -29,6 +29,7 @@
 #include <QTimer>
 
 #include "arm.hxx"
+#include "welcomedialog.hxx"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -45,6 +46,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    WelcomeDialog* _welcome = new WelcomeDialog(this);
     const QList<int> aleth_dimensions  = {760, 760},
               arm1_dimensions   = {21, 230},
               arm2_dimensions   = {51, 290},
@@ -69,6 +71,7 @@ private:
     void paintEvent(QPaintEvent*);
     void wheelEvent(QWheelEvent*);
     void mousePressEvent(QMouseEvent*);
+    void keyPressEvent(QKeyEvent*);
     void setArm(QPainter*, QIcon*, int, int, int, int arm_offset=0);
     void predict();
 

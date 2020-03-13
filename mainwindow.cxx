@@ -46,6 +46,23 @@ void MainWindow::mousePressEvent(QMouseEvent*)
     predict();
 }
 
+void MainWindow::keyPressEvent(QKeyEvent * event)
+{
+    if(event->key() == Qt::Key_Escape)
+    {
+        if(!_welcome->isVisible())
+        {
+            _welcome->show();
+            _welcome->raise();
+            _welcome->setWindowState(Qt::WindowActive);
+        }
+        else
+        {
+            _welcome->hide();
+        }
+    }
+}
+
 void MainWindow::updateNeedle()
 {
     timer_1->stop();
