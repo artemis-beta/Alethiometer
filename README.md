@@ -1,3 +1,5 @@
+![alethiometer](https://https://raw.githubusercontent.com/artemis-beta/Alethiometer/master/alethiometer.png)
+
 # Alethiometer
 This is a basic little application that I have constructed whilst learning how to use Qt. The arms are set using the scroll wheel on one of the three dials. When it is complete the needle will then swing between three symbols to represent the answer to the question being asked.
 
